@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.abstractFactory</OriginalElement>
+  <nodes>
+    <node x="179.0" y="115.0">creational.abstractFactory.ConcreteProduct2B</node>
+    <node x="571.0" y="115.0">creational.abstractFactory.ConcreteProduct1A</node>
+    <node x="121.34848484848487" y="220.0">creational.abstractFactory.ConcreteFactoryB</node>
+    <node x="358.0" y="91.0">creational.abstractFactory.AbstractFactory</node>
+    <node x="0.0" y="115.0">creational.abstractFactory.ConcreteProduct1B</node>
+    <node x="595.5378787878788" y="220.0">creational.abstractFactory.ConcreteFactoryA</node>
+    <node x="291.13636363636357" y="0.0">creational.abstractFactory.AbstractProduct1</node>
+    <node x="470.63636363636357" y="0.0">creational.abstractFactory.AbstractProduct2</node>
+    <node x="751.0" y="115.0">creational.abstractFactory.ConcreteProduct2A</node>
+    <node x="367.0" y="349.0">creational.abstractFactory.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.abstractFactory.Main" target="creational.abstractFactory.ConcreteFactoryA">
+      <point x="58.33333333333337" y="-27.5" />
+      <point x="512.8333333333334" y="324.0" />
+      <point x="692.0378787878788" y="324.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="creational.abstractFactory.Main" target="creational.abstractFactory.ConcreteFactoryB">
+      <point x="-58.33333333333337" y="-27.5" />
+      <point x="396.16666666666663" y="324.0" />
+      <point x="217.84848484848487" y="324.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteProduct2A" target="creational.abstractFactory.AbstractProduct2">
+      <point x="0.0" y="-15.5" />
+      <point x="831.0" y="51.0" />
+      <point x="581.6363636363636" y="51.0" />
+      <point x="37.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteProduct1B" target="creational.abstractFactory.AbstractProduct1">
+      <point x="0.0" y="-15.5" />
+      <point x="79.5" y="61.0" />
+      <point x="328.13636363636357" y="61.0" />
+      <point x="-37.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteProduct2B" target="creational.abstractFactory.AbstractProduct2">
+      <point x="0.0" y="-15.5" />
+      <point x="258.5" y="71.0" />
+      <point x="507.63636363636357" y="71.0" />
+      <point x="-37.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteProduct1A" target="creational.abstractFactory.AbstractProduct1">
+      <point x="0.0" y="-15.5" />
+      <point x="651.0" y="61.0" />
+      <point x="402.13636363636357" y="61.0" />
+      <point x="37.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteFactoryB" target="creational.abstractFactory.AbstractFactory">
+      <point x="64.33333333333337" y="-39.5" />
+      <point x="282.18181818181824" y="195.0" />
+      <point x="390.1666666666667" y="195.0" />
+      <point x="-64.33333333333331" y="39.5" />
+    </edge>
+    <edge source="creational.abstractFactory.Main" target="creational.abstractFactory.AbstractFactory">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteFactoryA" target="creational.abstractFactory.ConcreteProduct2A">
+      <point x="64.33333333333331" y="-39.5" />
+      <point x="756.371212121212" y="195.0" />
+      <point x="831.0" y="195.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteFactoryA" target="creational.abstractFactory.AbstractFactory">
+      <point x="-64.33333333333331" y="-39.5" />
+      <point x="627.7045454545455" y="195.0" />
+      <point x="518.8333333333333" y="195.0" />
+      <point x="64.33333333333326" y="39.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteFactoryB" target="creational.abstractFactory.ConcreteProduct2B">
+      <point x="0.0" y="-39.5" />
+      <point x="217.84848484848487" y="195.0" />
+      <point x="258.5" y="195.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteFactoryB" target="creational.abstractFactory.ConcreteProduct1B">
+      <point x="-64.33333333333337" y="-39.5" />
+      <point x="153.5151515151515" y="195.0" />
+      <point x="79.5" y="195.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="creational.abstractFactory.ConcreteFactoryA" target="creational.abstractFactory.ConcreteProduct1A">
+      <point x="0.0" y="-39.5" />
+      <point x="692.0378787878788" y="195.0" />
+      <point x="651.0" y="195.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Tree" zoom="1.0" x="455.5" y="202.0" />
+  <SelectedNodes>
+    <node>creational.abstractFactory.ConcreteProduct2A</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
